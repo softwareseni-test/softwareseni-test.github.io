@@ -1,0 +1,88 @@
+/*
+
+List style 
+1. Top Navigation
+2. Jumbotron
+3. Page Content
+4. footer 
+
+*/
+
+
+/*=========== 1.Top Navigation ========*/
+
+
+/*Logo*/
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: table;
+}
+
+/*menu*/
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*========= 2. Jumbotron --------*/
+
+.jumbotron,
+.bg-footer {
+    background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+}
+background-size: cover;
+
+}
+
+/*=========3. Page Content =============*/
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.card {
+    border: 1px solid rgba(0, 0, 0, .0)
+}
+
+/*============ 4. footer ============*/
+footer {
+    background-color: #33383c;
+    padding: 70px 0px;
+}
+.adress span,
+.contact span,
+.social span {
+    color: #FFF;
+    font-weight: 800;
+    padding: 20px 0px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.adress li,
+.contact li,
+.social li {
+    padding: 3px 0px;
+    list-style: none;
+}
+.adress li p,
+.contact li a,
+.social li a {
+    color: #FFF;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px
+}
+.social li {
+    float: left;
+}
